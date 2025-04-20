@@ -83,7 +83,7 @@
         url(/images/hero-image.jpg); 
         background-repeat: no-repeat;
         background-position: 50% 50%; 
-        background-size: cover; }
+        max-width: 1440px; background-size: cover; }
     .sectionone{background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
         url(/images/hero-image.jpg);
         
@@ -159,7 +159,8 @@
  
      .sectourteam{ flex-basis: calc((100% - 3 * 24px) / 4); 
          background-color: #FFFFFF; border-radius: 0px 0px 4px 4px ;
-         box-shadow: 0px 1px 6px rgba(46,47,66,0.16),0px 2px 1px rgba(46,47,66,0.08);}
+         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+          0px 2px 1px rgba(46, 47, 66, 0.08);}
 
      .soshic{width: 40px;height: 40px;
         border-radius: 50%;
@@ -204,7 +205,7 @@
          letter-spacing: 0.02em;
          text-align: center;
          color: #2e2f42;}
-     .imgsecth{display: block;box-shadow: 0px 1px 6px rgba(46,47,66,0.16),0px 2px 1px rgba(46,47,66,0.08);
+     .imgsecth{display: block; box-shadow: 0px 1px 6px rgba(46,47,66,0.16),0px 2px 1px rgba(46,47,66,0.08);
         border-radius: 0px 0px 4px 4px ; } 
      .thretit{text-align: center;}   
      .tiththree{margin-bottom:  8px;
