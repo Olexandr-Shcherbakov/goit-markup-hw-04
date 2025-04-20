@@ -182,8 +182,8 @@
     .svgteam{transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
         fill: #f4f4fd  ; width: 24px;
     height: 24px; }    
-   
-     
+    .svgteam:hover{background-color: #404bbf;}
+    .svgteam:focus{background-color: #404bbf;}
      .social{color: #e7e9fc;}
      .navsoshmed{display: flex; align-items:center;
         margin-top: 8px; gap: 24px;
@@ -236,19 +236,21 @@
          display:flex;flex-wrap: wrap;
          flex-basis:calc((100%-24px*4)/6);
          row-gap: 48px;}
+    .portfol:hover{transform:translateY(0%)}    
      .imgport{transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
          display: block;} 
      .contfor{padding: 32px 16px;
          border: 1px solid#e7e9fc;
          border-top: none;}
          
-     .contfor:hover{box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);  ;}    
+     .contfor:hover{box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); transform: translateY(0) ;}    
      .tithfo{margin-bottom: 8px;}
-
+     .tithfo:hover{transform: translateY(0);}
      .oveplay{position: relative;
               overflow: hidden;}
      .oveplay:hover{transform: translateY(0); box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); }         
+         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);transform:translateY(0%); }         
      .parfour{position: absolute;top: 0;font-size: 16px;
       line-height: 1.5;letter-spacing: 0.02em;color: #f4f4fd;
       padding: 40px 32px; background-color:#4D5AE5  ;
@@ -279,8 +281,7 @@
       line-height: 1.5;letter-spacing: 0.02em;
       color: #FFFFFF;margin-bottom: 16px;}
     .socfoot{display: flex;gap: 16px;}
-    .confoot{ margin-left:260px;margin-right: 120px;
-          } 
+    .confoot{margin-right: 120px; margin-left:260px;} 
     .soccfote{width: 40px;height: 40px;}
     .soocfott{display: flex;
     align-items:baseline ;gap: 16px;display: inline-block;}
